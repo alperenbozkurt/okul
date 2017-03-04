@@ -3,11 +3,14 @@ def turev denklem
   denklem.each_with_index do |e, i|
     a << e*i unless i == 0
   end
+  a
+end
+
+def polinom denklem
   str = "("
-  a.each_with_index do |e, i|
-    str << e.to_s + "x**" + i.to_s + ")"
-    str << "+(" unless i == a.length-1
+  denklem.each_with_index do |e, i|
+    str << e.to_s + "*x**" + i.to_s + ")"
+    str << "+(" unless i == denklem.length-1
   end
   str
 end
-puts turev [-16,0,6,-3,1]
