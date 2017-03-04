@@ -1,9 +1,9 @@
 def araligi_ikiye_bolme x1, x2, hata, formul
   sayac = 0
   h = (x1 - x2).abs
-  x = x1*1.0
+  x = x1
   y1 = eval(formul)
-  x = x2*1.0
+  x = x2
   y2 = eval(formul)
   if (y1*y2) < 0
     while h > hata
