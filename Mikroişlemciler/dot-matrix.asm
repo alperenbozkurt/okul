@@ -39,9 +39,9 @@ DONGU
 LOOK_AT
 	addwf PCL
 	retlw b'00000000'
-	retlw b'01110110'
-	retlw b'01110110'
-	retlw b'01110110'
+	retlw b'00111111'
+	retlw b'00111111'
+	retlw b'00111111'
 	retlw b'00000000'
 	return
 
