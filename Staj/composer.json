@@ -1,0 +1,8 @@
+{
+    "name": "acme/hello-world",
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "fzaninotto/faker": "^1.8",
+        "phpoffice/phpspreadsheet": "^1.6"
+    }
+}
